@@ -89,16 +89,14 @@ animations = [{
 script = ExtResource("1_n6pvg")
 
 [node name="killzone" parent="." unique_id=1737004378 instance=ExtResource("2_n6pvg")]
-position = Vector2(-23, 240)
-collision_layer = 2
-script = null
+position = Vector2(-22, 244)
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="killzone" unique_id=1044248286]
 position = Vector2(23, -247)
 shape = SubResource("RectangleShape2D_p2gj0")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=854899549]
-position = Vector2(0, -6)
+position = Vector2(1, -4)
 scale = Vector2(1, 1.3333334)
 sprite_frames = SubResource("SpriteFrames_v5wyi")
 autoplay = "default"

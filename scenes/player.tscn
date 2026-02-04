@@ -225,10 +225,11 @@ radius = 16.124516
 [node name="player" type="CharacterBody2D" unique_id=361735873]
 z_index = 5
 collision_layer = 3
-collision_mask = 3
+collision_mask = 5
 script = ExtResource("1_g2els")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1069257934]
+zoom = Vector2(1.6, 1.6)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1691124378]
 scale = Vector2(1.1875, 1.3125)
